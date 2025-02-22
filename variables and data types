@@ -1,0 +1,13 @@
+#include <stdio.h>
+
+int main() {
+    int num = 10;
+    float price = 12.99;
+    char grade = 'A';
+    
+    printf("Integer: %d\n", num);
+    printf("Float: %.2f\n", price);
+    printf("Character: %c\n", grade);
+    
+    return 0;
+}
